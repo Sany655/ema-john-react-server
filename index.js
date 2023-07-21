@@ -6,7 +6,8 @@ const ObjectId = require('mongodb').ObjectId;
 const app = express()
 const port = process.env.PORT || 5000;
 const admin = require("firebase-admin");
-const serviceAccount = require("./ema-john-complicated-firebase-adminsdk-b9630-e4379ae584.json");
+// const serviceAccount = require("./ema-john-complicated-firebase-adminsdk-b9630-e4379ae584.json");
+const serviceAccount = require("./ema-john-complicated-firebase-adminsdk-b9630-27d43886fe.json");
 
 // middlewares
 app.use(cors())
