@@ -81,5 +81,5 @@ async function run() {
 run().catch(console.dir)
 
 app.listen(port, () => {
-    console.log('emma john - http://localhost:5000');
+    console.log('emma john - '+port);
 })
